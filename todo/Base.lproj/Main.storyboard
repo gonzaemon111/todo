@@ -91,11 +91,17 @@
                                 <rect key="frame" x="156" y="196" width="62" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="追加する"/>
+                                <connections>
+                                    <action selector="TodoAddButten:" destination="Qxf-UC-Ajk" eventType="touchUpInside" id="0QJ-Fg-fdz"/>
+                                </connections>
                             </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <viewLayoutGuide key="safeArea" id="CIh-pq-vkf"/>
                     </view>
+                    <connections>
+                        <outlet property="TodoTextField" destination="kZH-0d-rd4" id="AI1-C8-5DP"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="hMV-Tc-CRQ" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
