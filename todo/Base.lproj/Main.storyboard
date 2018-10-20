@@ -59,10 +59,10 @@
             </objects>
             <point key="canvasLocation" x="-39" y="9"/>
         </scene>
-        <!--View Controller-->
+        <!--Add Controller-->
         <scene sceneID="5Bc-zx-woB">
             <objects>
-                <viewController id="Qxf-UC-Ajk" sceneMemberID="viewController">
+                <viewController id="Qxf-UC-Ajk" customClass="AddController" customModule="todo" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="RDO-ZJ-wFY">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
